@@ -552,6 +552,10 @@ section {
 .about .icon-box img {
   height: 67px;
 }
+.about .icon-box {
+  place-content: center;
+  text-align: center;
+}
 
 .about .content p:last-child {
   margin-bottom: 0;
