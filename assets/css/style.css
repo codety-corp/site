@@ -549,6 +549,9 @@ section {
   font-size: 20px;
   color: #6a0acd;
 }
+.about .icon-box img {
+  height: 67px;
+}
 
 .about .content p:last-child {
   margin-bottom: 0;
@@ -781,6 +784,9 @@ section {
   font-size: 32px;
   padding-right: 10px;
   line-height: 1;
+}
+.features .icon-box img {
+  height: 70px;
 }
 
 .features .icon-box h3 {
