@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Codety - Static Code Analysis Tool for Your Engineering Teams</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+<!--      <h1 class="logo"><a href="index.html">Codety.io</a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+       <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto" href="getstarted.html">Get Started</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 pt-2 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <h1>Static Code Analysis for Engineering Teams.</h1>
+          <ul>
+            <li><i class="ri-check-line"></i> Support multiple programming languages and most CI platforms</li>
+            <li><i class="ri-check-line"></i> Provide clear and actionable code review comments based on your customized rules.</li>
+            <li><i class="ri-check-line"></i> Create your code analysis rules according to your own use cases. </li>
+            <li><i class="ri-check-line"></i> Run the code analysis in your own CI environment without other service-providers cloning your code. </li>
+          </ul>
+          <div class="mt-3">
+            <a href="getstarted.html" class="btn-get-started scrollto">Get Started</a>
+            <a href="#contact" class="btn-get-quote">Contact us for a demo</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img">
+          <img src="assets/img/ci-github.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts section-bg">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Repos Using Codety</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-file-code"></i>
+              <span data-purecounter-start="0" data-purecounter-end="10000000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Lines of Code Scanned</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-cloud-rain"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Code Issues Detected</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-clock"></i>
+              <span data-purecounter-start="0" data-purecounter-end="8700" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Engineer Hours Saved</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-title">
+
+          <h2>Supported Platforms</h2>
+        </div>
+        <div class="row content">
+          <div class="col-lg-6">
+<!--            <h2>Support mainstream CI platforms</h2>-->
+            <div class="row">
+              <div class="col-lg-3  col-md-3 col-sm-4">
+                <div class="icon-box">
+                  <img src="assets/img/icon/harness.svg"  height="80">
+                </div>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-4">
+                <div class="icon-box">
+                  <img src="assets/img/icon/circleci.svg"  height="80">
+                </div>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-4">
+                <div class="icon-box">
+                  <img src="assets/img/icon/docker.svg"  height="80">
+                </div>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-4">
+                <div class="icon-box">
+                  <img src="assets/img/icon/kubernetes.svg"  height="80">
+                </div>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-4">
+                <div class="icon-box">
+                  <img src="assets/img/icon/github.svg"  height="80">
+                </div>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-4">
+                <div class="icon-box">
+                  <img src="assets/img/icon/gitlab.svg"  height="80">
+                </div>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-4">
+                <div class="icon-box">
+                  <img src="assets/img/icon/bitbucket.svg"  height="80">
+                </div>
+              </div>
+              <div class="col-lg-3  col-md-3 col-sm-4">
+                <div class="icon-box">
+                  <img src=""  height="80">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Codety takes data security very seriously.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Stop code smells from spread with Codety's instant code review comments.  </li>
+              <li><i class="ri-check-double-line"></i> Run Codety code analysis in your chosen CI environment without other service-providers cloning your code. </li>
+              <li><i class="ri-check-double-line"></i> Minimal permission required by respecting the principle of least privilege(POLP).</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="content col-xl-4 d-flex flex-column justify-content-center">
+            <img src="assets/img/ci-harness.png" class="img-fluid" alt="">
+          </div>
+          <div class="content col-xl-4 d-flex flex-column justify-content-center">
+            <img src="assets/img/ci-circleci.png" class="img-fluid" alt="">
+          </div>
+          <div class="content col-xl-4 d-flex flex-column justify-content-center">
+            <img src="assets/img/ci-github.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+      <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-title">
+          <p>&nbsp;</p>
+          <h2>Supported Languages</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/java.svg" height="100">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/javascript.svg" height="100">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/kotlin.svg" height="100">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/scala.svg" height="100">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/swift.svg" height="100">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/jsp.svg" height="100">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/html.svg" height="100">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/apex.svg" height="100">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/php.png" height="100">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/rust.svg" height="100">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4">
+            <div class="icon-box">
+              <img src="assets/img/icon/typescript.svg" height="100">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3  col-sm-4">
+            <div class="icon-box">
+              <img src="" height="100">
+              More are coming
+              <h3><a href="">&nbsp;</a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Features Section -->
+
+
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Pricing</h2>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 box">
+            <h3>Community</h3>
+            <h4>$0<span>per month</span></h4>
+            <ul>
+              <li><i class="bx bx-check"></i> All supported languages</li>
+              <li><i class="bx bx-check"></i> Public and private repos</li>
+              <li><i class="bx bx-check"></i> Custom rules</li>
+              <li class="na"><i class="bx bx-x"></i> <span>Commercial use</span></li>
+              <li class="na"><i class="bx bx-x"></i> <span>API integration</span></li>
+            </ul>
+            <a href="#" class="btn-buy">Get Started</a>
+          </div>
+
+          <div class="col-lg-4 box featured">
+            <h3>Advanced</h3>
+            <h4>$15<span>per seat/month</span></h4>
+            <ul>
+              <li><i class="bx bx-check"></i> All supported languages</li>
+              <li><i class="bx bx-check"></i> Public and private repos</li>
+              <li><i class="bx bx-check"></i> Custom rules</li>
+              <li><i class="bx bx-check"></i> Commercial use</li>
+              <li><i class="bx bx-check"></i> API integration</li>
+            </ul>
+            <a href="#" class="btn-buy">Get Started</a>
+          </div>
+
+          <div class="col-lg-4 box">
+            <h3>Enterprise</h3>
+            <h4>Contact</h4>
+            <ul>
+              <li><i class="bx bx-check"></i> All supported languages</li>
+              <li><i class="bx bx-check"></i> Public and private repos</li>
+              <li><i class="bx bx-check"></i> Custom rules</li>
+              <li><i class="bx bx-check"></i> Commercial use</li>
+              <li><i class="bx bx-check"></i> API integration</li>
+              <li><i class="bx bx-check"></i> Self-hosted</li>
+            </ul>
+            <a href="#" class="btn-buy">Get Started</a>
+          </div>
+
+        </div>
+
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Is Codety free to use? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                Codety is free to use for non-commercial uses.
+                <br/>
+                Commercial use of Codety at a company of more than 5 employees OR more than $200,000 in annual revenue requires a paid subscription.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq2">Is Codety going to copy my code? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                The Codety static code analysis process will be executed inside your CI pipeline compute environment, and Codety does not transfer your code out of your CI environment.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p></p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>contact@codety.io</p>
+                </div>
+              </div>
+<!--              <div class="col-md-6">-->
+<!--                <div class="info-box mt-4">-->
+<!--                  <i class="bx bx-phone-call"></i>-->
+<!--                  <h3>Call Us</h3>-->
+<!--                  <p> Don't call. </p>-->
+<!--                </div>-->
+<!--              </div>-->
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Codety</h4>
+              <p>
+              Seattle Metropolitan Area<br>
+                WA<br>
+              United States <br><br>
+              <strong>Email:</strong> contact@codety.io<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>&nbsp;</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">&nbsp;</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            &nbsp;
+<!--            <h4>Join Our Newsletter</h4>-->
+<!--            <form action="" method="post">-->
+<!--              <input type="email" name="email"><input disabled type="submit" value="Subscribe">-->
+<!--            </form>-->
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Codety</span></strong>. All Rights Reserved
+        </div>
+      </div>
+<!--      <div class="social-links text-center text-md-right pt-3 pt-md-0">-->
+<!--        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>-->
+<!--        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>-->
+<!--        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>-->
+<!--        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+<!--        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
+<!--      </div>-->
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-REB4KGS4NP"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-REB4KGS4NP');
+  </script>
+
+</body>
+
+</html>
