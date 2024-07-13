@@ -75,11 +75,41 @@
       </div>
     </section>
 
-
-
-
     <!-- ======= Frequently Asked Questions Section ======= -->
 
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse"  class="collapsed question" href="#faq1" >Is Codety free to use? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list" >
+              <p>
+                Codety is free to use for non-commercial uses.
+                <br/>
+                Commercial use of Codety at a company of more than 5 employees OR more than $200,000 in annual revenue requires a paid subscription.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq2">Is Codety going to clone my code? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                The Codety static code analysis process will be executed inside your CI pipeline compute environment, your existing CI pipeline will prepare the environment and clone the code, then Codety will run the code analysis within the same CI pipeline and Codety does not transfer your code out of your CI environment.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact section-bg">
