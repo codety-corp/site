@@ -1,6 +1,11 @@
 
 /*--------------------------------------------------------------
 # General
+
+@font-face {
+  font-family: 'The name of the Font Family Here';
+  src: URL('/assets/font.ttf') format('truetype');
+}
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
