@@ -7,6 +7,29 @@
   src: URL('/assets/font.ttf') format('truetype');
 }
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'roboto-black';
+  src: URL('/assets/css/Roboto-Black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'roboto-bold';
+  src: URL('/assets/css/Roboto-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'roboto-medium';
+  src: URL('/assets/css/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'roboto-regular';
+  src: URL('/assets/css/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'roboto-light';
+  src: URL('/assets/css/Roboto-Light.ttf') format('truetype');
+}
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -112,6 +135,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  font-family: "roboto-bold", Roboto-Bold;
 }
 
 .navbar ul {
@@ -358,11 +382,13 @@ h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 55px;
   font-weight: 400;
   line-height: 56px;
   color: #434175;
-  font-family: "Poppins", sans-serif;
+ /* font-family: "Poppins", sans-serif; */
+  font-family: "roboto-black", Roboto-Black;
+
 }
 
 #hero h2 {
@@ -379,6 +405,7 @@ h6 {
 #hero ul li {
   padding: 10px 0 0 28px;
   position: relative;
+  font-family: "roboto-regular", Roboto-Medium;
 }
 
 #hero ul i {
@@ -401,6 +428,7 @@ h6 {
   border-radius: 3px;
   transition: 0.5s;
   border-radius: 50px;
+  font-family: "roboto-bold", Roboto-Medium;
 }
 
 #hero .btn-get-started {
@@ -408,6 +436,7 @@ h6 {
   color: #fff;
   border: 2px solid #6a0acd;
   margin-right: 10px;
+  font-family: "roboto-bold", Roboto-Medium;
 }
 
 #hero .btn-get-started:hover {
@@ -546,6 +575,7 @@ section {
 .about .content ul li {
   padding: 10px 0 0 28px;
   position: relative;
+  font-family: "roboto-regular", Roboto-Regular;
 }
 
 .about .content ul i {
@@ -681,7 +711,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto-bold", sans-serif;
   font-size: 14px;
 }
 
@@ -1205,7 +1235,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto-bold", sans-serif;
   transition: 0.3s;
   border: none;
 }
@@ -1529,7 +1559,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "roboto-bold", sans-serif;
   color: #777777;
 }
 
