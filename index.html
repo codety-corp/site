@@ -24,8 +24,6 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-REB4KGS4NP"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -39,10 +37,9 @@
 
 
 mixpanel.init("6d06e2eb55ffe5a81ec6e9f9d9a8ed4f", {
-  debug: true,
   track_pageview: true,
-  persistence: "localStorage",
 });
+mixpanel.track("index");
   </script>
 </head>
 
